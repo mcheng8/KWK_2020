@@ -28,21 +28,14 @@ dogWalker()                             //C.  Calling a function
 */
 
 func greeter () {
-    print("Hello")
-    print("How are you?")
+
 }
 
 /*
 3. Declare and call a function named parter.
 4. Write AT LEAST  2 print statements within the code block for the parter to say. Verify that it is running successfully by checking the console for the sentences.
 */
-func parter() {
-    print("Good-bye")
-    print("Take care")
-}
- 
-greeter()
-parter()
+
 
 /*Think and Type:
 1. Did your greeter sentences print before or after your parter sentences? Why?
@@ -81,11 +74,8 @@ Mild: a. Declare a function called calc1.
  c. The function should print the sum of that number and 5.
 */
 
-func calc1 (number : Int) {
-    print(number+5)
-}
 
-calc1(number: 5)
+
 
 /*
 Medium: a. Declare a function called calc2.
@@ -93,11 +83,7 @@ Medium: a. Declare a function called calc2.
  b. The function will print the sum of those two numbers.
 */
 
-func calc2 (number1 : Int, number2 : Int) {
-    print(number1+number2)
-}
 
-calc2(number1: 5, number2: 10)
 
 /*
 Spicy:  a.  Declare a function called calc3.
@@ -105,11 +91,7 @@ Spicy:  a.  Declare a function called calc3.
  c.  The function will add the first two numbers, then multiply that sum by the third number and print the result.
  */
 
-func calc3 (number1 : Int, number2 : Int, number3 : Int) {
-    print((number1+number2)*number3)
-}
 
-calc3(number1: 5, number2: 10, number3: 2)
 
 //Example of how to use Returing Values
 func timeToWalk(numberOfDogs : Int) -> Int {
@@ -129,101 +111,34 @@ print("Your bill for dog walking is $\(costs)")
 
 
 //Try It: Logic Inside a Function
-func studentSorter(grade : Int) {
-    if grade <= 5 {
-        print("You are in elementry school")
-    } else if grade > 8 {
-        print("You are in high school")
-    } else {
-        print("You are in middle school")
-    }
-}
 
-studentSorter(grade: 9)
-    
-func dogAge2HumanAge (dogYears : Int) {
-    print("The age of your dog is \(dogYears*7) human years")
-}
-
-dogAge2HumanAge(dogYears: 3)
 
 
 //Practice
 //Part 1:  Function
 
-/* 1. With your partner, brainstorm what kind of robot you are programing and what are its tasks.
+/* 1. With your partner, brainstorm what kind of robot you are programing and what are its tasks (AT LEAST 3).
 
-I am programming a...Robot Teacher
+I am programming a...
 
 The tasks of this robot are...
-Task 1:  Drink lots of coffee
-Task 2:  Greet students in the morning
-Task 3:  Talk alot and watch students learn
-Task 4:  Watch students write amazing code
-Task 5:  Gives homework and say good bye
+Task 1:
+Task 2:
+Task 3:
+Task 4:
+Task 5:
 */
 
 // 2. Write a function that prints the tasks that your robot will perform
 
-/*
-func robotTeacher() {
-    print("Drink lots of coffee")
-    print("Greet students in the morning")
-    print("Talk alot and watch students learn")
-    print("Watch students write amazing code")
-    print("Give homework and say good bye")
-}
 
-robotTeacher()
-*/
 
 // 3. Write a function that uses parameters.  Build off what you already have by "commenting out" our your code above.  Then copy it, paste it below and start editing it.  Try to incorporate a conditional statements within your function!
+
+
 /*
-func robotTeacher(cupsOfCoffee : Int) {
-    if cupsOfCoffee == 0 {
-        print("Goes to Starbucks for coffee")
-    }
-    else if cupsOfCoffee < 4 {
-        print("Coffee levels are good.  Continue with next task")
-    }
-    else {
-        print("No more coffee.  Coffee overload!")
-    }
-//    print("Drink lots of coffee")
-    print("Greet students in the morning")
-    print("Talk alot and watch students learn")
-    print("Watch students write amazing code")
-    print("Give homework and say good bye")
-}
+4.  Write a function that returns a value when you call the function.  Build off what you already have by "commenting out" our your code above.  Then copy it, paste it below and start editing it.  Try to incorporate a conditional statements within your function!
 
-robotTeacher(cupsOfCoffee: 2)
+Store the output in another variable and print a statement that incorporates the stored output from calling the function.
 */
-
-/*  4.  Write a function that returns a value when you call the function.  Build off what you already have by "commenting out" our your code above.  Then copy it, paste it below and start editing it.  Try to incorporate a conditional statements within your function!
-
-    Store the output in another variable and print a statement that incorporates the stored output from calling the function.
- */
-
-func robotTeacher(cupsOfCoffee : Int) -> Int {
-    if cupsOfCoffee == 0 {
-        print("Goes to Starbucks for coffee")
-    }
-    else if cupsOfCoffee < 4 {
-        print("Coffee levels are good.  Continue with next task")
-    }
-    else {
-        print("No more coffee.  Coffee overload!")
-    }
-    //    print("Drink lots of coffee")
-    print("Greet students in the morning")
-    print("Talk alot and watch students learn")
-    print("Watch students write amazing code")
-    print("Give homework and say good bye")
-    let numberOfAssignmentsCompleted = cupsOfCoffee * 2
-    return numberOfAssignmentsCompleted
-}
-
-robotTeacher(cupsOfCoffee: 2)
-let workCompleted = robotTeacher(cupsOfCoffee: 2)
-print("The number of assignments completed by the robot teacher is \(workCompleted) assignments.")
 
