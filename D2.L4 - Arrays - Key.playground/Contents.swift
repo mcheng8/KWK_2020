@@ -60,35 +60,36 @@ trendingB[0]
 //Think and type:  Type out lines of code to access the following elements from the array.
 
 //Line of code for @avani
-
+trendingB[2]
 
 //Line of code for 36.6
-
+numFollowersB[3]
 
 //Line of code for @lorenguy
-
+trendingB[3]
 
 //Line of code for 13.8
-
+numFollowersB[1]
 
 //Line of code for 7.1
-
+numFollowersB[2]
 
 /*
 Try It:  Creating Arrays
 Directions: Create a variable that stores an array of at least 4 strings - choose 4 foods of your choice.
 The variable name should describe the group of data that you choose (cannot not use food)!
  */
-//Example: var candyBars = ["Snickers","Kit Kats","Almond Hersey's","Butterfinger"]
+
+var candyBars = ["Snickers","Kit Kats","Almond Hersey's","Butterfinger"]
 
 // 2a. Print out the 1st element
-
+candyBars[0]
 
 // 2b. Print out the last element
-
+candyBars[3]
 
 // 2c. Print out the 2nd element
-
+candyBars[1]
 
 //With arrays, we can also perform the following actions on an array:
 print(trendingB)
@@ -114,21 +115,21 @@ Directions:  Using the array you wrote from the previous Try It (Creating Arrays
  */
 
 // 1. Print out the array with a Use a print statement before you modify the array
-
+print(candyBars)
 
 // 2. Add two new elements into your array.
-
+candyBars.append("Reese's")
+candyBars.append("Almond Joy")
 
 // 3. Use a print statement to make sure they have been added.
-
+print(candyBars)
 
 // 4. Remove the 2nd and 4th elements from your array.
-
-
+candyBars.remove(at: 3)
+candyBars.remove(at: 1)
 
 // 5. Use a print statement to make sure they have been removed.  Look in the console and compare each print of the array to make sure it what you expected.
-
-
+print(candyBars)
 
 /*
 Picking Out Elements Randomly From An Array
@@ -151,30 +152,41 @@ func pickStudent() -> String {              //Defining the function
 var randomStudent = pickStudent()
 print(randomStudent)
 
-
 //Practice Arrays
+
 //Starting with an array containing a list of Karlie’s friends, complete the following tasks in order.
 var friendsOfKarlie = ["Michelle Obama", "Serena Williams", "Chrissy Tegan", "Jimmy Fallon"]
 
 // 1. Replace the value of 3rd elements in the array with Josh Kushner
-
+friendsOfKarlie[2]="Josh Kushner"
 
 // 2. Add a Gigi Hadid to the array
-
+friendsOfKarlie.append("Gigi Hadid")
 
 // 3. Remove the 2nd account from the array
-
+friendsOfKarlie.remove(at: 1)
 
 // 4. Print the value of the third element of the array
-
+print("\(friendsOfKarlie[2])")
 
 // 5. Change the value of 4th element in the array
-
+friendsOfKarlie[3]="Kendall Jenner"
 
 // 6. Add Stella McCartney to the array
-
+friendsOfKarlie.append("Stella McCartney")
 
 // 7. Print the value of the first element of the array
-
+print("\(friendsOfKarlie[0])")
 
 // 8. Print one person to the console, at random.
+func pickFriend() -> String {              //Defining the function
+    let numOfFriends = friendsOfKarlie.count
+    let random = Int.random(in: 1..<numOfFriends)
+//Using a method tool called Int.random that generates a random number with the given parameters, between 1 and 19.  Stores the random number in a variable called "random"
+    let bestFriend = friendsOfKarlie[random]
+// Uses the number stored in random to access a particular element from the array.  Stores the element in a variable called student.
+    return bestFriend                     //Outputs the value of the function
+}
+
+print(pickFriend())
+
