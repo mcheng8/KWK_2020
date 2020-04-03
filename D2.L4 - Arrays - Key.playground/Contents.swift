@@ -1,5 +1,5 @@
 /*
-D2.L4 - Collecting Information With Arrays
+D2.L4 - Organizing Data in Numbered Lists with Arrays
 
 Learning Goals:
  LG1.  Understand what an array is and why they are useful.
