@@ -42,9 +42,7 @@ Try It:  Defining a Class called "Scholar"
 */
 
 class ScholarA {
-    let grade = 10
-    let subject = "Swift"
-    let name = "Ophelia"
+   
 }
 
 /*
@@ -52,8 +50,7 @@ class ScholarA {
 4. Print the “nycCamperA” object
 */
 
-var nycCamperA = ScholarA()
-print(nycCamperA)
+
 
 
 /*
@@ -63,9 +60,7 @@ Not particular useful becuase the class can only create objects with specific pr
 */
 
 //  Try It:  Print the properties of the nycCamperA Object
-print(nycCamperA.grade)
-print(nycCamperA.name)
-print(nycCamperA.subject)
+
 
 
 //B. Creating a Class that Outputs the Different Objects.  Objects will have constant and varying properties
@@ -98,25 +93,13 @@ grade of scholar is a varying property
 */
 
 class ScholarB {
-    let subject = "Swift"
-    let camp = "NYC"
-    var name : String
-    var grade : Int
-    
-    init(scholarName : String, scholarGrade : Int) {
-        name = scholarName
-        grade = scholarGrade
-    }
 }
 
 // 4. Create an object called “scholarSelf” and pass in the appropriate arguments that correspond to youself.
-var scholarSelf = ScholarB(scholarName: "Mark", scholarGrade: 28)
+
 
 // 5. Print each one of the  object’s (fixed and varying) properties
-print(scholarSelf.camp)
-print(scholarSelf.grade)
-print(scholarSelf.name)
-print(scholarSelf.subject)
+
 
 
 //C. Creating a Class that Outputs the Different Objects.  Objects will have constant properties, varying properties and actions.
@@ -152,33 +135,16 @@ Before You Begin
  4. Add a function to the “Scholar” class that prints a statement about the scholar.  This function will be called “learning”.
 */
 
-class ScholarC {
-    let subject = "Swift"
-    let camp = "NYC"
-    var name : String
-    var grade : Int
-    
-    init(scholarName : String, scholarGrade : Int) {
-        name = scholarName
-        grade = scholarGrade
-    }
-    
-    func learning() {
-        print("\(name) is in the \(grade) grade and is learing to code \(subject) in \(camp).")
-    }
-}
+
 
 // 4. Create an object called “scholarNeighbor” and pass in the appropriate arguments that correspond to your neighbor.
-var scholarNeighbor = ScholarC(scholarName: "Bark", scholarGrade: 8)
+
 
 // 5. Print each one of the object’s (fixed and varying) properties
-print(scholarNeighbor.camp)
-print(scholarNeighbor.grade)
-print(scholarNeighbor.name)
-print(scholarNeighbor.subject)
+
 
 // 6. Call the function within the scholarNeighbor object.
-scholarNeighbor.learning()
+
 
 
 /*
@@ -188,6 +154,6 @@ Classes getting big and we will have many of them
 
 In your opinion, what kinds of problems or difficulties could arise from placing all the code all one page (i.e. a single playground)?
  
-Things will get messy and too crowded.  Hard to find errors.
+
 */
 
