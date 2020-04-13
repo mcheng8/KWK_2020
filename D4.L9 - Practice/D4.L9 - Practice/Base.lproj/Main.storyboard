@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="D4_L9___Practice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="profile-icon-female-emotion-avatar-woman-cartoon-vector-15236202" translatesAutoresizingMaskIntoConstraints="NO" id="kxX-6D-DnQ">
+                                <rect key="frame" x="87" y="199" width="240" height="136"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q9h-7Z-XHX">
+                                <rect key="frame" x="167" y="520" width="84" height="48"/>
+                                <color key="backgroundColor" systemColor="systemGray3Color" red="0.78039215689999997" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Phone">
+                                    <color key="titleColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aqL-ZJ-8lk">
+                                <rect key="frame" x="167" y="584" width="84" height="48"/>
+                                <color key="backgroundColor" systemColor="systemGray3Color" red="0.78039215689999997" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="E-Mail">
+                                    <color key="titleColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Vu-Wd-FCU">
+                                <rect key="frame" x="180" y="646" width="54" height="48"/>
+                                <color key="backgroundColor" systemColor="systemGray3Color" red="0.78039215689999997" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Text">
+                                    <color key="titleColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nAi-87-LMV">
+                                <rect key="frame" x="154" y="712" width="107" height="48"/>
+                                <color key="backgroundColor" systemColor="systemGray3Color" red="0.78039215689999997" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Address">
+                                    <color key="titleColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ok0-jd-AEq">
+                                <rect key="frame" x="83.5" y="81" width="247.5" height="104"/>
+                                <string key="text">Contact Info
+for
+New York Foundling</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <color key="textColor" red="0.0" green="0.98106676339999999" blue="0.57369142770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XEI-NP-hZv">
+                                <rect key="frame" x="70" y="335" width="278" height="104"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="104" id="51l-Dl-0mI"/>
+                                </constraints>
+                                <string key="text">My name is...
+You can reach me by...</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <color key="textColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Q9h-7Z-XHX" firstAttribute="trailing" secondItem="aqL-ZJ-8lk" secondAttribute="trailing" id="0Md-12-7Zi"/>
+                            <constraint firstItem="kxX-6D-DnQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="0ii-y9-E4X"/>
+                            <constraint firstItem="XEI-NP-hZv" firstAttribute="top" secondItem="kxX-6D-DnQ" secondAttribute="bottom" id="1Oq-mh-16C"/>
+                            <constraint firstItem="9Vu-Wd-FCU" firstAttribute="top" secondItem="aqL-ZJ-8lk" secondAttribute="bottom" constant="14" id="2Hz-E5-EXo"/>
+                            <constraint firstItem="ok0-jd-AEq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="37" id="4TJ-It-Kqd"/>
+                            <constraint firstItem="kxX-6D-DnQ" firstAttribute="centerX" secondItem="ok0-jd-AEq" secondAttribute="centerX" id="ARZ-iK-cZt"/>
+                            <constraint firstItem="kxX-6D-DnQ" firstAttribute="top" secondItem="ok0-jd-AEq" secondAttribute="bottom" constant="14" id="BB7-Ro-oih"/>
+                            <constraint firstItem="9Vu-Wd-FCU" firstAttribute="centerX" secondItem="nAi-87-LMV" secondAttribute="centerX" id="ExE-L2-ly7"/>
+                            <constraint firstItem="Q9h-7Z-XHX" firstAttribute="top" secondItem="XEI-NP-hZv" secondAttribute="bottom" constant="81" id="MCJ-ka-a86"/>
+                            <constraint firstItem="Q9h-7Z-XHX" firstAttribute="centerX" secondItem="aqL-ZJ-8lk" secondAttribute="centerX" id="bQA-yU-mMv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nAi-87-LMV" secondAttribute="bottom" constant="102" id="bcX-jt-Lhb"/>
+                            <constraint firstItem="ok0-jd-AEq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dnV-Mw-f3D"/>
+                            <constraint firstItem="aqL-ZJ-8lk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="167" id="gXy-2p-iNC"/>
+                            <constraint firstItem="nAi-87-LMV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="154" id="ksI-oC-w8g"/>
+                            <constraint firstItem="XEI-NP-hZv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="mdl-du-pdE"/>
+                            <constraint firstItem="kxX-6D-DnQ" firstAttribute="centerX" secondItem="9Vu-Wd-FCU" secondAttribute="centerX" id="poq-GJ-eli"/>
+                            <constraint firstItem="aqL-ZJ-8lk" firstAttribute="top" secondItem="Q9h-7Z-XHX" secondAttribute="bottom" constant="16" id="u7w-qh-NzQ"/>
+                            <constraint firstItem="XEI-NP-hZv" firstAttribute="centerX" secondItem="Q9h-7Z-XHX" secondAttribute="centerX" id="xdu-Kx-agY"/>
+                            <constraint firstItem="nAi-87-LMV" firstAttribute="top" secondItem="9Vu-Wd-FCU" secondAttribute="bottom" constant="18" id="xhD-8s-4IA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="profile-icon-female-emotion-avatar-woman-cartoon-vector-15236202" width="1000" height="1080"/>
+    </resources>
+</document>
