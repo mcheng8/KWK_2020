@@ -10,19 +10,26 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let availableEmotions = ["😑":"bored","😔":"sad"]
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
     @IBAction func showMessage(sender: UIButton) {
-        let messageControl = UIAlertController(title: "This is a test", message: "If you see this, it works!", preferredStyle: UIAlertController.Style.alert)
+        if let selectedEmotion = sender.titleLabel?.text{
+        
+        let titleText = selectedEmotion
+        let messageText = availableEmotions["\(selectedEmotion)"]!
+            
+        let messageControl = UIAlertController(title: "\(titleText)", message: "\(messageText)", preferredStyle: UIAlertController.Style.alert)
         
         messageControl.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
         
         present(messageControl, animated: true, completion: nil)
+        }
     }
-    
     
     
 }
