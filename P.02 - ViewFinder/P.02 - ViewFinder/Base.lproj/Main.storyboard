@@ -56,12 +56,18 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
                                 <state key="normal" title="Camera"/>
+                                <connections>
+                                    <action selector="cameraTapped:" destination="Swo-7F-fgN" eventType="touchUpInside" id="NZY-JZ-9ff"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i3d-Q0-27z">
                                 <rect key="frame" x="285" y="352" width="109" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
                                 <state key="normal" title="Album"/>
+                                <connections>
+                                    <action selector="albumTapped:" destination="Swo-7F-fgN" eventType="touchUpInside" id="UaO-HJ-0WA"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="camera_pic" translatesAutoresizingMaskIntoConstraints="NO" id="xpB-4D-chU">
                                 <rect key="frame" x="16" y="112" width="383" height="204"/>
@@ -84,6 +90,9 @@
                         <viewLayoutGuide key="safeArea" id="Cua-YJ-d3P"/>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="Nne-Wq-9BG"/>
+                    <connections>
+                        <outlet property="displayImage" destination="xpB-4D-chU" id="f62-4Y-rZ7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ffq-Nb-AAZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
