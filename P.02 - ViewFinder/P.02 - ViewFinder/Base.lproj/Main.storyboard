@@ -46,7 +46,7 @@
         <!--Title-->
         <scene sceneID="hHa-f7-XRq">
             <objects>
-                <viewController id="Swo-7F-fgN" sceneMemberID="viewController">
+                <viewController id="Swo-7F-fgN" customClass="AddPhotoViewController" customModule="P_02___ViewFinder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RPY-nK-SbK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

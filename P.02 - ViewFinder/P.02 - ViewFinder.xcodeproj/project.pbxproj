@@ -15,6 +15,7 @@
 		0CDE3E7B244F34B70014337B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CDE3E79244F34B70014337B /* LaunchScreen.storyboard */; };
 		0CDE3E86244F34B70014337B /* P_02___ViewFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDE3E85244F34B70014337B /* P_02___ViewFinderTests.swift */; };
 		0CDE3E91244F34B70014337B /* P_02___ViewFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDE3E90244F34B70014337B /* P_02___ViewFinderUITests.swift */; };
+		0CDE3E9F244F419B0014337B /* AddPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDE3E9E244F419B0014337B /* AddPhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0CDE3E8C244F34B70014337B /* P.02 - ViewFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "P.02 - ViewFinderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CDE3E90244F34B70014337B /* P_02___ViewFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "P_02___ViewFinderUITests.swift"; sourceTree = "<group>"; };
 		0CDE3E92244F34B70014337B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CDE3E9E244F419B0014337B /* AddPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				0CDE3E6B244F34B50014337B /* AppDelegate.swift */,
 				0CDE3E6D244F34B50014337B /* SceneDelegate.swift */,
 				0CDE3E71244F34B50014337B /* Main.storyboard */,
+				0CDE3E9E244F419B0014337B /* AddPhotoViewController.swift */,
 				0CDE3E77244F34B70014337B /* Assets.xcassets */,
 				0CDE3E79244F34B70014337B /* LaunchScreen.storyboard */,
 				0CDE3E7C244F34B70014337B /* Info.plist */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CDE3E6C244F34B50014337B /* AppDelegate.swift in Sources */,
+				0CDE3E9F244F419B0014337B /* AddPhotoViewController.swift in Sources */,
 				0CDE3E6E244F34B50014337B /* SceneDelegate.swift in Sources */,
 				0CDE3E76244F34B50014337B /* P_02___ViewFinder.xcdatamodeld in Sources */,
 			);
