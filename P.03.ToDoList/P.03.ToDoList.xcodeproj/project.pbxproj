@@ -18,6 +18,7 @@
 		0CA3C2AE245755310078F980 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA3C2AD245755310078F980 /* ToDoTableViewController.swift */; };
 		0CA3C2B0245757320078F980 /* ToDoClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA3C2AF245757320078F980 /* ToDoClass.swift */; };
 		0CA3C2B22457852E0078F980 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA3C2B12457852E0078F980 /* AddToDoViewController.swift */; };
+		0CA3C2B42457B6700078F980 /* CompletedToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA3C2B32457B6700078F980 /* CompletedToDoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		0CA3C2AD245755310078F980 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 		0CA3C2AF245757320078F980 /* ToDoClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoClass.swift; sourceTree = "<group>"; };
 		0CA3C2B12457852E0078F980 /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
+		0CA3C2B32457B6700078F980 /* CompletedToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedToDoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				0CA3C27A245753C60078F980 /* AppDelegate.swift */,
 				0CA3C27C245753C60078F980 /* SceneDelegate.swift */,
 				0CA3C280245753C60078F980 /* Main.storyboard */,
+				0CA3C2B32457B6700078F980 /* CompletedToDoViewController.swift */,
 				0CA3C2B12457852E0078F980 /* AddToDoViewController.swift */,
 				0CA3C2AF245757320078F980 /* ToDoClass.swift */,
 				0CA3C2AD245755310078F980 /* ToDoTableViewController.swift */,
@@ -271,6 +274,7 @@
 				0CA3C285245753C60078F980 /* P_03_ToDoList.xcdatamodeld in Sources */,
 				0CA3C2AE245755310078F980 /* ToDoTableViewController.swift in Sources */,
 				0CA3C27B245753C60078F980 /* AppDelegate.swift in Sources */,
+				0CA3C2B42457B6700078F980 /* CompletedToDoViewController.swift in Sources */,
 				0CA3C27D245753C60078F980 /* SceneDelegate.swift in Sources */,
 				0CA3C2B22457852E0078F980 /* AddToDoViewController.swift in Sources */,
 				0CA3C2B0245757320078F980 /* ToDoClass.swift in Sources */,
