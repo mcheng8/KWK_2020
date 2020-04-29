@@ -23,6 +23,25 @@ class AddToDoViewController: UIViewController {
     
     @IBAction func addButtonTapped(_ sender: UIButton) {
         
+        //this line creates a reference that allows us access to the Core Data.  It uses functions prewritten and stored in AppDelegate.swift.  We use guard let to conditional unwrap the Core Data.
+        guard let accessToCoreData = UIApplication.shared.delegate as? AppDelegate else {
+            return
+        }
+        
+        //this line stores the information from Core Data into the object (dataFromCoreData) that we can access.
+        let dataFromCoreData = accessToCoreData.persistentContainer.viewContext
+        
+        //this line create a new object that is the same data type as the ToDoCD entry within Core Data.  This means this object will have all the properties of ToDoCD.
+        let newToDo = ToDoCD(context: dataFromCoreData)
+        
+        //these lines give the object information from the user input
+        newToDo.descriptionInCD = descriptionInput.text
+        newToDo.importantInCD = switchInput.isOn
+        
+        //this line saves the information stored in the object to Core Data
+        accessToCoreData.saveContext()
+        
+        /*
         let newToDo = ToDoClass()
         
         if let checkForInput = descriptionInput.text {
@@ -32,6 +51,8 @@ class AddToDoViewController: UIViewController {
         
         previousToDoTVC.listOfToDo.append(newToDo)
         previousToDoTVC.tableView.reloadData()
+        */
+ 
         navigationController?.popViewController(animated: true)
     }
     
